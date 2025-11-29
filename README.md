@@ -1,3 +1,3 @@
 # QtWeatherReport
-基于Qt开发的天气预报
+基于Qt6.92版本开发的天气预报
 
