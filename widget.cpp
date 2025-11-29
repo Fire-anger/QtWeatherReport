@@ -43,8 +43,8 @@ Widget::Widget(QWidget *parent)
     //     qDebug() << "manager finish!==========";
     // });
 
-    //strUrl = "http://gfeljm.tianqiapi.com/api?unescape=1&version=v61&appid=22429431&appsecret=x7Gwi04U"; // v61版本的小时天气数据
-    strUrl = "http://gfeljm.tianqiapi.com/api?unescape=1&version=v9&appid=22429431&appsecret=x7Gwi04U"; // v9版本7天天气数据
+    //strUrl = "http://gfeljm.tianqiapi.com/api?unescape=1&version=v61&appid=userid&appsecret=x7Gwi04U"; // v61版本的小时天气数据
+    strUrl = "http://gfeljm.tianqiapi.com/api?unescape=1&version=v9&appid=userid&appsecret=x7Gwi04U"; // v9版本7天天气数据
     QUrl urlTianQi(strUrl);
     QNetworkRequest res(urlTianQi);
     // 发起get请求 返回值为 QNetworkReply*
@@ -555,4 +555,5 @@ void Widget::on_lineEditCity_returnPressed()
 {
     on_pushButton_clicked();
 }
+
 
